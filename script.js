@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const entradaNumeroB = document.getElementById("inputNumeroB");
     const paragrafoMensagem = document.getElementById("mensagem");
     const paragrafoSoma = document.getElementById("soma");
-  
+    const paragrafoSubtracao = document.getElementById("subtracao");
+
     const inicializarApp = () => {
       formNumeros.addEventListener("submit", (event) => {
         event.preventDefault();
@@ -26,11 +27,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
   
     const contas = (a, b) => {
       paragrafoSoma.textContent = `Soma = ${somar(a, b)}`;
+      paragrafoSubtracao.textContent = `Subtração = ${subtrair(a, b)}`;
     };
   
     const somar = (a, b) => {
       return a + b;
     };
+
+    const subtrair = (a,b) =>{
+      return a - b;
+    }
     
     inicializarApp();
   });

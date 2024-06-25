@@ -6,7 +6,7 @@
    multiplicação e divisão deles.
 
 * [X]  soma
-* [ ]  subtração
+* [X]  subtração
 * [ ]  multiplicação
 * [ ]  divisão
 
