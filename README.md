@@ -5,7 +5,7 @@
 1. Crie um algoritmo que leia dois números inteiros e exiba a soma, subtração,
    multiplicação e divisão deles.
 
-* [ ]  soma
+* [X]  soma
 * [ ]  subtração
 * [ ]  multiplicação
 * [ ]  divisão
