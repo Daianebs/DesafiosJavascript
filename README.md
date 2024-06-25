@@ -8,7 +8,7 @@
 * [X]  soma
 * [X]  subtração
 * [X]  multiplicação
-* [ ]  divisão
+* [X]  divisão
 
 2. Faça um algoritmo que leia o nome, a idade e o salário de uma pessoa e exiba
    essas informações formatadas.
