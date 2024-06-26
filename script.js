@@ -23,11 +23,20 @@ document.addEventListener("DOMContentLoaded", (event) => {
       if (NumeroA === "" || NumeroB === "") {
         paragrafoMensagem.textContent =
           "Por favor, preencha ambos os campos de entrada com números";
+          limparParagrafos();
         return;
       }
       contas(parseFloat(NumeroA), parseFloat(NumeroB));
     };
   
+    const limparParagrafos = () => {
+      paragrafoSoma.textContent = "";
+      paragrafoSubtracao.textContent = "";
+      paragrafoMultiplicacao.textContent = "";
+      paragrafoDivisaoA.textContent ="";
+      paragrafoDivisaoB.textContent = "";
+    }
+
     const contas = (a, b) => {
       paragrafoSoma.textContent = `Soma = ${somar(a, b)}`;
       paragrafoSubtracao.textContent = `Subtração = ${subtrair(a, b)}`;
