@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", (event) => {
     const formNumeros = document.getElementById("conta");
     const entradaNumeroA = document.getElementById("inputNumeroA");
     const entradaNumeroB = document.getElementById("inputNumeroB");
@@ -8,6 +7,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const paragrafoMultiplicacao = document.getElementById("multiplicacao");
     const paragrafoDivisaoA = document.getElementById("divisaoA");
     const paragrafoDivisaoB = document.getElementById("divisaoB");
+
 
     const inicializarApp = () => {
       formNumeros.addEventListener("submit", (event) => {
@@ -62,5 +62,3 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }   
    
     inicializarApp();
-  });
-  

@@ -1,0 +1,45 @@
+select option {
+  margin: 40px;
+  padding: 10px;
+  background-color: rgb(126, 126, 126);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+select option[value="Vermelho"] {
+  background: red;
+}
+select option[value="Azul"] {
+  background: blue;
+}
+select option[value="Amarelo"] {
+  background: yellow;
+  color: rgb(78, 78, 78);
+}
+select option[value="Roxo"] {
+  background: purple;
+}
+select option[value="Laranja"] {
+  background: orange;
+}
+select option[value="Verde"] {
+  background: green;
+}
+select option[value="Rosa"] {
+  background: rgb(255, 83, 183);
+}
+select option[value="Preto"] {
+  background: black;
+}
+select option[value="Branco"] {
+  background: white;
+  color: black;
+}
+select option[value="Marrom"] {
+  background: brown;
+}
+select option[value="Azul Claro"] {
+  background: aqua;
+}
+select option[value="Cinza"] {
+  background: gray;
+}
