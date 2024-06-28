@@ -1,3 +1,21 @@
+body {
+  margin: 3em;
+  background-color: beige;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#licao1, #campoPessoal {
+  background-color: antiquewhite;
+  max-width: 500px;
+}
+input,
+select {
+  border-radius: 5px;
+}
+button{
+  border-radius: 5px;
+  padding: 6px;
+}
+
 select option {
   margin: 40px;
   padding: 10px;

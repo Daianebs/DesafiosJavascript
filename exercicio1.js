@@ -1,7 +1,7 @@
     const formNumeros = document.getElementById("conta");
     const entradaNumeroA = document.getElementById("inputNumeroA");
     const entradaNumeroB = document.getElementById("inputNumeroB");
-    const paragrafoMensagem = document.getElementById("mensagem");
+    const paragrafoMensagem = document.getElementById("erro1");
     const paragrafoSoma = document.getElementById("soma");
     const paragrafoSubtracao = document.getElementById("subtracao");
     const paragrafoMultiplicacao = document.getElementById("multiplicacao");

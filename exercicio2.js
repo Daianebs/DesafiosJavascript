@@ -10,11 +10,12 @@ const validarDados = () => {
   const nome = document.getElementById("nome").value;
   const idade = document.getElementById("idade").value;
   const cor = document.getElementById("cor").value;
-
+  const paragrafoMensagem = document.getElementById("erro2");
   if (nome === "" || idade === "" || cor === "") {
-    alert("Por favor, preencha todos os campos");
+    paragrafoMensagem.textContent = "Por favor, preencha nome e idade e selecione uma cor";
     return;
   }
+  paragrafoMensagem.textContent = "";
   imprimirDadosPessoais(nome, idade, cor);
   // Restante da lógica de validação, se necessário
 };
