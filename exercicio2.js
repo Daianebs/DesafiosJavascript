@@ -26,7 +26,7 @@ const imprimirDadosPessoais = (nome, idade, cor) => {
   const paragrafoIdade = document.getElementById("pIdade");
   const paragrafoCor = document.getElementById("pCor");
   paragrafoNome.textContent = "O nome escolhido é " + nome;
-  paragrafoIdade.textContent = "a idade é " + idade;
+  paragrafoIdade.textContent = "A idade é " + idade;
   paragrafoCor.textContent =
     "E sua cor preferida é: " +
     cor +

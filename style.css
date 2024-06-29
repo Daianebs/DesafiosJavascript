@@ -16,6 +16,9 @@ button{
   padding: 6px;
 }
 
+label {
+  background-color: antiquewhite;
+}
 select option {
   margin: 40px;
   padding: 10px;
